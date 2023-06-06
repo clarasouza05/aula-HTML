@@ -16,27 +16,29 @@
     <img src="./midia/fofoca 2.jpg" width="300px">
     <br>
     <br>
-    <select>
-
-        
-        <option>Famosas</option> 
-        <option>BBB</option>  
-        <option>Fofoca do dia</option>  
+  
+      <select onchange="location.href=this.value">
+        <option value="#">Selecione</option>
+        <option value="https://www.uol.com.br/splash/ultimas/">Famosas</option> 
+        <option value="https://gshow.globo.com/realities/bbb/">BBB</option>  
+        <option value="https://g1.globo.com/globonews/">Fofoca do dia</option>  
        </select>
        <br>
        <br>
            <div>
-               <a href="https://www.folhape.com.br/noticias/sao-joao-do-recife-tera-20-dias-de-festa-confira-polos-e-atracoes/272498/" target="_blank"></a>
+               <a href="https://www.folhape.com.br/noticias/sao-joao-do-recife-tera-20-dias-de-festa-confira-polos-e-atracoes/272498/" target="_blank"><button> assuntos do dia</button></a>
            </div>  
        
-           <button>Assuntos do dia</button>
-      <h3> Mande aqui sua fofoca</h3>
+           
+      <h3> mande aqui sua fofoca</h3>
       <form>
           <input type="text" placeholder="Nome" required> <br>
           <br/>
               <input type="text" placeholder="Tema" required> <br> 
               <br/>
               <textarea placeholder="Descreva aqui sua fofoca" rows="5" cols="50"></textarea> </textarea> <br/>
+              
+              <button type='submit'>Enviar</button>
               <form>
   </header>  
 <br>

@@ -1,0 +1,16 @@
+.corAzul{
+    color: rgb(236, 21, 21);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* para escolher a fonte do texto*/
+font-weight: bold; /* para escolher a intencidade da fonte*/
+font-size: 16px; /* para definir tamanho*/
+text-align: end; /*para mover qualquer coisa para qualquer lado*/
+
+
+}
+.corVerde{
+    color: rgb(90, 45, 133);
+    background-color: rgba(255,0,0,0.5); /*seria um marca texto*/ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: center;
+}
